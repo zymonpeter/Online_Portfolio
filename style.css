@@ -212,4 +212,187 @@ body {
 	}
 }
 
+/** about **/
+
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', 'sans-serif';
+}
+
+a{
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}
+
+.container{
+  padding-left:2rem;
+  padding-right:2rem;
+}
+
+.container-deep{
+  padding-left:8rem;
+  padding-right:8rem;
+}
+
+/*about-me start*/
+
+.about-me .card{
+  background:rgba(73, 73, 73, 0.404);
+  box-shadow:2px 2px 15px rgba(0,0,0,0.4);
+  padding:4rem;
+  display:flex;
+  border-radius:10px;
+}
+
+.about-me .card-info{
+  margin-left:5rem;
+  display:flex;
+  flex-direction: column;
+}
+
+.about-me .card .card-info h1{
+  margin-top:.3rem;
+  margin-bottom:1rem;
+  font-size:2rem;
+  font-weight: bold;
+  color: #f5f4f4;
+}
+
+.about-me .card .card-info h3{
+  margin-top:.3rem;
+  margin-bottom:1rem;
+  font-size:2rem;
+  font-weight: bold;
+  color: #f5f4f4;
+}
+
+.about-me .card .card-info p{
+  opacity:.8;
+  margin-bottom:1rem;
+}
+
+.about-me .card .card-info a{
+  background:black;
+  border: 1px solid black;
+  color:rgba(255, 255, 255, 0.979);
+  padding: .7rem 1.5rem .7rem 1.5rem;
+  align-self: flex-end;
+  justify-self: center;
+}
+
+.about-me .card .card-info a:hover{
+  background:rgba(255, 255, 255, 0.233);
+  color:rgb(3, 3, 3);
+  border: 1px solid rgba(85, 85, 85, 0.171);
+}
+
+.about-me .card .card-image img{
+width: 350px;;
+}
+
+
+/*about-me end*/
+
+/* Style for the modal */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(15, 15, 15, 0.767);
+  overflow: auto;
+}
+
+/* Style for the modal content */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 900px;
+}
+
+/* Style for the close button */
+.close {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  position: absolute;
+  top: 15px;
+  right: 30px;
+  cursor: pointer;
+}
+
+/* Style for the zoomed-in image */
+.zoomed-image {
+  width: 100%;
+  height: auto;
+  
+}
+
+/** contact **/ 
+
+.contact-section {
+  background-color: #30303070;
+  padding: 50px 0;
+}
+
+.contact-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#contact h2 {
+  text-align: center;
+  color: #ffffff;
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact label {
+  margin-bottom: 8px;
+}
+
+#contact input,
+#contact textarea,
+#contact select {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #4d4d4d70;
+  border-radius: 4px;
+}
+
+#contact button {
+  background-color: #00000046;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#contact button:hover {
+  background-color: #83838363;
+}
+
+#contact p{
+  text-align: center;
+  padding: 100px;
+}
+
+
+
     
